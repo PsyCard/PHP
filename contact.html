@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<link rel="stylesheet" href="Style.css">
+<body class="contactpage">
+    
+</body>
+<center><h1> <img src="images/PHP.svg" alt="php" class="phpi" width="200" height="200" ></h1></center>
+<body class="contactpage">
+    <div class="navigation">
+        <a href="ejemplos.html" class="button">Ejemplos</a>
+        <a href="historia.html" class="button">Historia</a>
+        <a href="caract.html" class="button">Caracteristicas</a>
+        <a href="index.html" class="button">¿Que es?</a>
+    </div>
+    <h1><center>Contactanos</center></h1>
+    <h2>Si tienes alguna duda o sugerencia, no dudes en dejarnos tu mensaje</h2>
+    
+    <form id="contactForm">
+        Nombre completo: <input type="text" name="nombre" required><br>
+        Correo electronico: <input type="email" name="correo" required><br>
+        Mensaje: <textarea name="mensaje" required></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <div id="mensajeEnviado" style="display: none; color: green; margin-top: 20px;">
+        ¡Gracias! Tu mensaje ha sido enviado correctamente.
+    </div>
+
+    <script>
+        // Manejar el evento de envío del formulario
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evita que el formulario se envíe
+            document.getElementById("mensajeEnviado").style.display = "block"; // Muestra el mensaje
+        });
+    </script>
+<body>
+    <footer class="footer">
+        <p>© 2025 Juan Mejia. Todos los derechos reservados.</p>
+        
+    </footer>
+</body>
+</html>

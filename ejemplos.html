@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo</title>
+</head>
+<link rel="stylesheet" href="Style.css">
+<body class="ejemplospage">
+    
+</body>
+
+<body>
+    <center><h1> <img src="images/PHP.svg" alt="php" class="phpi" width="200" height="200"></h1></center>
+    <div class="navigation">
+        <a href="index.html" class="button">¿Que es?</a>
+        <a href="historia.html" class="button">Historia</a>
+        <a href="caract.html" class="button">Caracteristicas</a>
+        <a href="contact.html" class="button">Contacto</a>
+<body class="indexpage">
+    <h1><center>Ejemplos de codigo</center> </h1>
+    
+    <h1>Algunos ejemplos sencillos serian</h1>
+<h2>&lt;form action="saludo.php" method="post"&gt;
+    Nombre: &lt;input type="text" name="nombre"&gt;
+    &lt;input type="submit" value="Enviar"&gt;
+    &lt;/form&gt;
+  </h2>
+    <h2>&lt;?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $nombre = $_POST["nombre"];
+            echo "Hola, " . htmlspecialchars($nombre) . "!";
+        }
+    ?&gt;</h2>
+    <h1>Ejemplo de un bucle for</h1>
+    <h2>&lt;?php
+        for ($i = 1; $i <= 5; $i++) {
+            echo "Número: " . $i . "&lt;br&gt;";
+        } 
+    ?&gt;</h2>
+    <img src="images/ejemphp.webp" alt="ejemplo" class="ejemplo" width="400" height="350">
+    <footer class="footer">
+        <p>© 2025 Juan Mejia. Todos los derechos reservados.</p>
+        
+    </footer>
+</body>
+</html>

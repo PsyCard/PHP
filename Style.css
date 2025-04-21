@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    font-family: 'Comic Sans MS', cursive; /* Aplica Comic Sans */
+    color: rgb(145, 145, 145); /* Color del texto */
+}
+
+h1, h2 {
+    font-family: 'Comic Sans MS', cursive; /* Aplica Comic Sans a los encabezados */
+}
+.indexpage {transform: translateY(-100px);
+     margin: 40px;
+    background: linear-gradient(to right, rgb(23, 23, 122), rgb(75, 123, 139));
+    color: rgb(145, 145, 145); 
+}
+.ejemplospage { transform: translateY(-100px);
+    margin: 40px;
+    background: linear-gradient(to right, rgb(19, 19, 88), rgb(53, 121, 100));
+    color: rgb(145, 145, 145); 
+}
+.historiapage{transform: translateY(-100px);
+    margin: 40px;
+    background: linear-gradient(to right, rgb(32, 12, 122), rgb(14, 112, 63));
+    color: rgb(145, 145, 145); 
+}
+.caractpage{transform: translateY(-100px);
+    margin: 40px;
+    background: linear-gradient(to right, rgb(42, 9, 121), rgb(16, 109, 104));
+    color: rgb(145, 145, 145); 
+}
+.contactpage{transform: translateY(-100px);
+    margin: 40px;
+    background: linear-gradient(to right, rgb(54, 4, 83), rgb(34, 85, 100));
+    color: rgb(145, 145, 145); 
+}
+
+
+.ventajas-desventajas {
+    display: flex; /* Coloca los elementos hijos en línea horizontal */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+.ventajas, .desventajas {
+    flex: 1; /* Hace que ambas columnas tengan el mismo ancho */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo opcional */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(23, 23, 122); /* Color del botón */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(75, 123, 139); /* Color al pasar el mouse */
+}
+.phpi {
+    transform: translateY(20px);
+}
+
+.rasmus{
+        box-shadow: 5px 5px 15px black; /* Sombra alrededor de la imagen */
+    }
+    .ejemplo{
+        box-shadow: 5px 5px 15px black; /* Sombra alrededor de la imagen */
+    }
+
+    .footer {
+  background-color: #343a40; /* Gris oscuro para el pie de página */
+  color: #ffffff; /* Texto blanco */
+  text-align: center; /* Centrar el texto */
+  padding: 10px 0; /* Espaciado interno */
+  position: relative; /* Fijar el pie de página */
+  width: 100%; /* Hacer que ocupe todo el ancho */
+  font-size: 14px; /* Tamaño del texto */
+  left: 0;
+}
